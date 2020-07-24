@@ -9,6 +9,9 @@ app.get('/',(req, res)=> {
 app.get('/login',(req, res)=> {
     res.send('login')
    })
+   app.get('/register',(req, res)=> {
+    res.send('register')
+   })
 
 app.listen(PORT,()=>{
     console.log(`listening on port ${PORT}`)
