@@ -6,4 +6,6 @@ app.get('/',(req, res)=> {
  res.send('hello')
 })
 
-app.listen(PORT)
+app.listen(PORT,()=>{
+    console.log(`listening on port ${PORT}`)
+})
